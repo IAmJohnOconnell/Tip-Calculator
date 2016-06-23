@@ -19,10 +19,6 @@ HTML/CSS/JS files ready to host.
 
 img (assets) folder contains all images.
 
-### Dependencies
-
-This project uses Bootstrap 4 (alpha) for responsiveness.
-
 **[Back to top](#table-of-contents)**
 
 ## Contributing
