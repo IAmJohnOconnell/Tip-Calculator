@@ -17,8 +17,6 @@ to tip based on the information they selected, when the calculate button is pres
 
 HTML/CSS/JS files ready to host.
 
-img (assets) folder contains all images.
-
 **[Back to top](#table-of-contents)**
 
 ## Contributing
