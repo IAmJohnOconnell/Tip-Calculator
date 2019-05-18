@@ -34,7 +34,14 @@
 				</label>
 				<label for="">
 					How many people are sharing the bill?
-					<input type="text" id="totalPeople">people
+					<select type="text" id="totalPeople">
+						<option value="" disabled selected>Choose an Option</option>
+						<option value="1">Just Me Today</option>
+						<option value="2">Two People</option>
+						<option value="3">Three People</option>
+						<option value="4">Four People</option>
+						<option value="5">Five People</option>
+					</select>
 				</label>
 				
 				<button type="button" id="calculate">Calculate</button>
@@ -46,7 +53,7 @@
 		<div id="totalTip">
 			<sup>$</sup><span id="tip">0.00</span>
 			<small id="each">Each</small>
-		</div> <!--total tip
+		</div> <!--total tip-->
 		
 	</div>  <!--container-->
 	
