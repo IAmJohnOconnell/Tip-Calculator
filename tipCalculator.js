@@ -25,6 +25,11 @@ function calculateTip() {
 		
 		document.getElementById("each").style.display = "block";
 	}
+
+	//Force decimal places for price input
+	function setTwoNumberDecimal(e) {
+		this.value = parseFloat(this.value).toFixed(2);
+	}
 	
 	//Do the math
 	var total = (billAmount * serviceQuality) / numPeople;
